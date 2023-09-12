@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/myemail"
+        android:layout_width="117dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:text="Email:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/myemail1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/myemail1"
+        android:layout_width="196dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="88dp"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="229dp"
+        android:layout_height="88dp"
+        android:text="User Profile"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="132dp"
+        android:onClick="tomainPage"
+        android:text="Back to Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="117dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:text="Last Login:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/lastLogin"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/myemail"
+        app:layout_constraintTop_toBottomOf="@+id/myemail" />
+
+    <TextView
+        android:id="@+id/lastLogin"
+        android:layout_width="117dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="@+id/myemail1"
+        app:layout_constraintTop_toBottomOf="@+id/myemail1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
